@@ -152,7 +152,14 @@ h2 {
     background: #d1edff;
     color: #0c5460;
 }
-
+.delete-btn {
+    color: #ff4d4d;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
 .empty-state {
     text-align: center;
     color: #666;
