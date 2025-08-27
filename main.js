@@ -14,6 +14,7 @@ class Task {
 
 let tasks = [];
 
+
 function saveTasks() {
     localStorage.setItem('myTasks', JSON.stringify(tasks));
 }
